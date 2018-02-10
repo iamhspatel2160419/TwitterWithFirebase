@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24E9EF9E135BC1FAC6141A19 /* Pods_TwitterWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE528BD61D280AD8CB4D6FE /* Pods_TwitterWithFirebase.framework */; };
+		E08E372C202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png in Resources */ = {isa = PBXBuildFile; fileRef = E08E3729202F164000355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png */; };
+		E08E372D202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png in Resources */ = {isa = PBXBuildFile; fileRef = E08E372A202F164100355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png */; };
+		E08E372E202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png in Resources */ = {isa = PBXBuildFile; fileRef = E08E372B202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png */; };
+		E08E3730202F164800355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png in Resources */ = {isa = PBXBuildFile; fileRef = E08E372F202F164800355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png */; };
 		E0C129BE202EA72C00B5792A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129BD202EA72C00B5792A /* AppDelegate.swift */; };
 		E0C129C0202EA72C00B5792A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129BF202EA72C00B5792A /* ViewController.swift */; };
 		E0C129C3202EA72D00B5792A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C129C1202EA72D00B5792A /* Main.storyboard */; };
 		E0C129C5202EA72D00B5792A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C129C4202EA72D00B5792A /* Assets.xcassets */; };
 		E0C129C8202EA72D00B5792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C129C6202EA72D00B5792A /* LaunchScreen.storyboard */; };
+		E0C129D0202EB21D00B5792A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129CF202EB21D00B5792A /* WelcomeViewController.swift */; };
+		E0C129D2202EB44B00B5792A /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129D1202EB44B00B5792A /* StoriesTableViewController.swift */; };
+		E0C129D4202EB4A200B5792A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129D3202EB4A200B5792A /* ComposeViewController.swift */; };
+		E0C129D8202EBE9400B5792A /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129D7202EBE9400B5792A /* StoryTableViewCell.swift */; };
+		E0C129DA202ECF9B00B5792A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C129D9202ECF9B00B5792A /* GoogleService-Info.plist */; };
+		E0C129E1202EE00F00B5792A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C129E0202EE00F00B5792A /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FE59DA08159AA8ABFD58EC /* Pods-TwitterWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterWithFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterWithFirebase/Pods-TwitterWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		BCE528BD61D280AD8CB4D6FE /* Pods_TwitterWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08E3729202F164000355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png"; sourceTree = "<group>"; };
+		E08E372A202F164100355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png"; sourceTree = "<group>"; };
+		E08E372B202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png"; sourceTree = "<group>"; };
+		E08E372F202F164800355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png"; sourceTree = "<group>"; };
 		E0C129BA202EA72C00B5792A /* TwitterWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C129BD202EA72C00B5792A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C129BF202EA72C00B5792A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,14 @@
 		E0C129C4202EA72D00B5792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C129C7202EA72D00B5792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0C129C9202EA72D00B5792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C129CF202EB21D00B5792A /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E0C129D1202EB44B00B5792A /* StoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
+		E0C129D3202EB4A200B5792A /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		E0C129D7202EBE9400B5792A /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		E0C129D9202ECF9B00B5792A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0C129DB202ED16A00B5792A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E0C129E0202EE00F00B5792A /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		E373ECE5AD0816658D5D351F /* Pods-TwitterWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterWithFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterWithFirebase/Pods-TwitterWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E9EF9E135BC1FAC6141A19 /* Pods_TwitterWithFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BE559C43BF48060D1022E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE528BD61D280AD8CB4D6FE /* Pods_TwitterWithFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E08E3731202F166200355B35 /* SnapShots */ = {
+			isa = PBXGroup;
+			children = (
+				E08E372F202F164800355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png */,
+				E08E372B202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png */,
+				E08E3729202F164000355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png */,
+				E08E372A202F164100355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png */,
+			);
+			path = SnapShots;
+			sourceTree = "<group>";
+		};
+		E08E3732202F167400355B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0C129E0202EE00F00B5792A /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E0C129B1202EA72B00B5792A = {
 			isa = PBXGroup;
 			children = (
+				E0C129D9202ECF9B00B5792A /* GoogleService-Info.plist */,
+				E0C129DB202ED16A00B5792A /* Podfile */,
 				E0C129BC202EA72C00B5792A /* TwitterWithFirebase */,
 				E0C129BB202EA72C00B5792A /* Products */,
+				F49ED9FDCFFF86A921C11DB7 /* Pods */,
+				8BE559C43BF48060D1022E1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +111,45 @@
 		E0C129BC202EA72C00B5792A /* TwitterWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				E08E3731202F166200355B35 /* SnapShots */,
+				E08E3732202F167400355B35 /* Model */,
 				E0C129BD202EA72C00B5792A /* AppDelegate.swift */,
 				E0C129BF202EA72C00B5792A /* ViewController.swift */,
-				E0C129C1202EA72D00B5792A /* Main.storyboard */,
+				E0C129D5202EB79600B5792A /* Controllers */,
+				E0C129D6202EB7DF00B5792A /* Views */,
 				E0C129C4202EA72D00B5792A /* Assets.xcassets */,
 				E0C129C6202EA72D00B5792A /* LaunchScreen.storyboard */,
 				E0C129C9202EA72D00B5792A /* Info.plist */,
 			);
 			path = TwitterWithFirebase;
+			sourceTree = "<group>";
+		};
+		E0C129D5202EB79600B5792A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0C129CF202EB21D00B5792A /* WelcomeViewController.swift */,
+				E0C129D1202EB44B00B5792A /* StoriesTableViewController.swift */,
+				E0C129D3202EB4A200B5792A /* ComposeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E0C129D6202EB7DF00B5792A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0C129D7202EBE9400B5792A /* StoryTableViewCell.swift */,
+				E0C129C1202EA72D00B5792A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F49ED9FDCFFF86A921C11DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E373ECE5AD0816658D5D351F /* Pods-TwitterWithFirebase.debug.xcconfig */,
+				07FE59DA08159AA8ABFD58EC /* Pods-TwitterWithFirebase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C129CC202EA72D00B5792A /* Build configuration list for PBXNativeTarget "TwitterWithFirebase" */;
 			buildPhases = (
+				952C7A8E0A77EB709743971C /* [CP] Check Pods Manifest.lock */,
 				E0C129B6202EA72B00B5792A /* Sources */,
 				E0C129B7202EA72B00B5792A /* Frameworks */,
 				E0C129B8202EA72B00B5792A /* Resources */,
+				23EB33A9BCD5BBE41C5CADBF /* [CP] Embed Pods Frameworks */,
+				72830F7E399F652BB06B26FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C129C8202EA72D00B5792A /* LaunchScreen.storyboard in Resources */,
+				E08E372D202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.37.48.png in Resources */,
+				E08E372E202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.08.09.png in Resources */,
+				E08E3730202F164800355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.36.29.png in Resources */,
+				E0C129DA202ECF9B00B5792A /* GoogleService-Info.plist in Resources */,
+				E08E372C202F164200355B35 /* Simulator Screen Shot - iPhone 8 - 2018-02-10 at 03.11.43.png in Resources */,
 				E0C129C5202EA72D00B5792A /* Assets.xcassets in Resources */,
 				E0C129C3202EA72D00B5792A /* Main.storyboard in Resources */,
 			);
@@ -131,13 +227,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23EB33A9BCD5BBE41C5CADBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TwitterWithFirebase/Pods-TwitterWithFirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitterWithFirebase/Pods-TwitterWithFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72830F7E399F652BB06B26FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitterWithFirebase/Pods-TwitterWithFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952C7A8E0A77EB709743971C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterWithFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0C129B6202EA72B00B5792A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C129E1202EE00F00B5792A /* Story.swift in Sources */,
+				E0C129D4202EB4A200B5792A /* ComposeViewController.swift in Sources */,
+				E0C129D0202EB21D00B5792A /* WelcomeViewController.swift in Sources */,
 				E0C129C0202EA72C00B5792A /* ViewController.swift in Sources */,
+				E0C129D2202EB44B00B5792A /* StoriesTableViewController.swift in Sources */,
 				E0C129BE202EA72C00B5792A /* AppDelegate.swift in Sources */,
+				E0C129D8202EBE9400B5792A /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +433,7 @@
 		};
 		E0C129CD202EA72D00B5792A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E373ECE5AD0816658D5D351F /* Pods-TwitterWithFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +448,7 @@
 		};
 		E0C129CE202EA72D00B5792A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE59DA08159AA8ABFD58EC /* Pods-TwitterWithFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
